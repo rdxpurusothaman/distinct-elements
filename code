@@ -1,0 +1,10 @@
+a=input()
+l=[]
+b=1
+c=0
+for i in a:
+    if(i not in l):
+        c+=1
+    print("Among all substrings of length {}. maximum number of distinct characters = {}".format(b,c))
+    l.append(i)
+    b+=1
